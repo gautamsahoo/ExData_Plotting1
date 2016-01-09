@@ -16,7 +16,7 @@ xAxis <- strptime(xAxis, "%Y-%m-%d %H:%M:%S");
 
 
 yAxis <- as.numeric(plot2SubSet$Global_active_power);
-png("plo25.png", width=480, height=480);
+png("plo2.png", width=480, height=480);
 plot(xAxis, yAxis, type="l", xlab="", ylab="Global Active Power (kilowatts)");
 dev.off();
 
